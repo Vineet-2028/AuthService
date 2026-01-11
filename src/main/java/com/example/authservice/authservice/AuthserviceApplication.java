@@ -19,9 +19,4 @@ public class AuthserviceApplication {
     public static void main(String[] args) {
         SpringApplication.run(AuthserviceApplication.class, args);
     }
-
-//    @Bean
-//    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-//        return new SecurityConfig().securityFilterChain(http);
-//    }
 }
